@@ -10,7 +10,6 @@ img#imgl
 {	
 	margin-top:230px;
 	    border: 8px solid #fff;
-    border-bottom: 20px solid #fff;
     cursor: pointer;
     display: inline;
     position: absolute;
@@ -42,7 +41,6 @@ img#imgr
 	margin-left:35px;
 
 	border: 8px solid #fff;
-    border-bottom: 20px solid #fff;
     cursor: pointer;
     display: inline;
     position: absolute;
@@ -70,8 +68,6 @@ img#img
 {
 	
 	border: 8px solid #fff;
-    border-bottom: 20px solid #fff;
-	
     cursor: pointer;
     display: inline;
     position: absolute;
@@ -120,6 +116,6 @@ div.right{
 
 body{
 	background-color:#F0FFF0;
-	background-image:url(fon.jpg);
+	background-image:url(../images/fon.jpg);
 	
 }
