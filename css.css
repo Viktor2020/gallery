@@ -1,0 +1,125 @@
+
+img#imgl:hover{
+	opacity:1;
+}
+img#imgr:hover{
+	opacity:1;
+}
+/* left image */
+img#imgl
+{	
+	margin-top:230px;
+	    border: 8px solid #fff;
+    border-bottom: 20px solid #fff;
+    cursor: pointer;
+    display: inline;
+    position: absolute;
+
+
+    /* CSS3 Box sizing property */
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* CSS3 transition rules */
+    -webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
+
+    /* CSS3 Box Shadow */
+    -moz-box-shadow: 2px 2px 4px #444;
+    -webkit-box-shadow: 2px 2px 4px #444;
+    -o-box-shadow: 2px 2px 4px #444;
+    box-shadow: 2px 2px 4px #444;
+	opacity: 0.5;
+}
+/* right image */
+img#imgr
+{
+	margin-top:225px;
+	margin-left:35px;
+
+	border: 8px solid #fff;
+    border-bottom: 20px solid #fff;
+    cursor: pointer;
+    display: inline;
+    position: absolute;
+	    /* CSS3 Box sizing property */
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* CSS3 transition rules */
+    -webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
+
+    /* CSS3 Box Shadow */
+    -moz-box-shadow: 2px 2px 4px #444;
+    -webkit-box-shadow: 2px 2px 4px #444;
+    -o-box-shadow: 2px 2px 4px #444;
+    box-shadow: 2px 2px 4px #444;
+	opacity: 0.5;
+}
+/* center image */
+img#img
+{
+	
+	border: 8px solid #fff;
+    border-bottom: 20px solid #fff;
+	
+    cursor: pointer;
+    display: inline;
+    position: absolute;
+	    /* CSS3 Box sizing property */
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* CSS3 transition rules */
+    -webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
+
+    /* CSS3 Box Shadow */
+    -moz-box-shadow: 2px 2px 4px #444;
+    -webkit-box-shadow: 2px 2px 4px #444;
+    -o-box-shadow: 2px 2px 4px #444;
+    box-shadow: 2px 2px 4px #444;
+}
+div.left{
+	width:24%;
+	height:480px;
+	float: left;
+	
+	margin: 5px;
+	display:  inline-table;
+}
+div.center{
+	width:45%;
+	height:100%;
+	float: left;
+	
+	margin: 5px;
+	display:  inline-table;
+}
+div.right{
+	width:24%;
+	height:480px;
+	
+	
+	margin: 5px;
+	display:  inline-table;
+}
+
+body{
+	background-color:#F0FFF0;
+	background-image:url(fon.jpg);
+	
+}
